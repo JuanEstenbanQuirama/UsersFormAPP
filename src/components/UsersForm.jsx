@@ -21,7 +21,6 @@ const UsersForm = ({ getUsers, userSelected, deselectUser }) => {
 
     const submit = e => {
         e.preventDefault();
-        alert("hice submit")
         const user = 
             {
                 email: email,
